@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lumora</title>
+
+    <link rel="stylesheet" href="../assets/css/home.css" />
+    <link rel="stylesheet" href="../assets/css/default.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header>
+      <nav>
+        <div class="logo">
+          <img src="../assets/imgs/logo.png" alt="logo" />
+          <h1>Lumora</h1>
+        </div>
+<div class="container">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#scents">Scents</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        </div>
+        <div class="order">
+          <button type="submit" onclick="orders()">Order On Whatsapp</button>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Home -->
+    <section class="home" id="home">
+      <div class="info">
+        <h2>
+          Captivating scent crafted  to illuminate your essence.
+          Timeless __ elegance in every 
+          bottle.
+        </h2>
+        <p id="para">
+          Lumora is designed to brighten your everyday life through the power
+          of scent. From fresh, uplifting morning notes to rich,
+          captivating evening blends, our collection elevates every moment.
+        </p>
+        <div class="links">
+          <button type="button" onclick="orders()">Order On Whatsapp</button>
+         <a href="#services"> Browse The Scent</a>
+        </div>
+        <p id="para1">
+          Illuminate Your Essence spa · Pure Scents, Radiance · Elegance In
+          Every Bottle
+        </p>
+      </div>
+      <div class="img2">
+        <img src="../assets/imgs/flowers.jpeg" alt="flower" />
+      </div>
+    </section>
+    <!-- Scents -->
+    <section class="scents" id="scents">
+      <div class="info">
+        <h3>Scents</h3>
+        <p id="para">
+          Lumora Scents creates unforgettable olfactory 
+          experiences by combining expert artistry with 
+          high-quality, skin-loving oils.
+        </p>
+        <div class="inputs">
+          <input
+            type="text"
+            name="scent"
+            placeholder="Midnight"
+            readonly
+            data-price="PKR 2,000"
+            class="input"
+          />
+          <input
+            type="text"
+            name="scent"
+            placeholder="Solaris "
+            readonly
+            data-price="PKR 2,500"
+            class="input"
+          />
+          <input
+            type="text"
+            name="scent"
+            placeholder="Ember"
+            class="input"
+            readonly
+            data-price="PKR 2,900"
+          />
+          <input
+            type="text"
+            name="scent"
+            placeholder="Nectar"
+            readonly
+            class="input"
+            data-price="PKR 2,600"
+          />
+          <input
+            type="text"
+            name="scent"
+            placeholder="Cashmere"
+            readonly
+            class="input"
+            data-price="PKR 3,000"
+          />
+          <input
+            type="text"
+            name="scent"
+            placeholder="Rain"
+            readonly
+            class="input"
+            data-price="PKR 3,200"
+          />
+        </div>
+        <div class="rupees">
+          <div class="prices">
+            <span class="one">Price</span><br />
+            <span id="price"> PKR 2,000</span>
+          </div>
+
+          <button type="button" onclick="order()">Order On Whatsapp</button>
+        </div>
+      </div>
+
+      <div class="img3">
+        <img
+          src="../assets/imgs/lamp.jpeg"
+          alt="midnight-velvet"
+          class="midnight"
+        />
+        <img
+          src="../assets/imgs/rose.jpeg"
+          alt="solaris-bloom"
+          class="solaris"
+        />
+      </div>
+      <div class="paper"></div>
+    </section>
+
+    <!-- Service -->
+    <section class="services" id="services">
+      <div class="imgs">
+        <img src="../assets/imgs/gajra.jpeg" alt="event-bar" id="img1" />
+        <img
+          src="../assets/imgs/flower.jpeg"
+          alt="scent-layering"
+          class="imgg"
+        />
+        <img
+          src="../assets/imgs/ribbon.jpeg"
+          alt="bottle-refill"
+          class="imgg"
+        />
+      </div>
+      <div class="info">
+        <h4>Services</h4>
+        <p>
+          Lumora offers tailored luxury fragrance services designed to <br />
+          help you discover, personalize, and layer your unique signature scent.
+          <br />
+          From bespoke event fragrance bars to eco-friendly bottle
+          <br />refills, we elevate your daily perfume ritual.
+        </p>
+        <div class="inputs">
+          <input
+            type="text"
+            name="scents"
+            placeholder="Scent"
+            readonly
+            data-price="PKR 2,300"
+            class="input"
+          />
+          <input
+            type="text"
+            name="scents"
+            placeholder="Event"
+            readonly
+            data-price=" PKR 3,100"
+            class="input"
+          />
+          <input
+            type="text"
+            name="scent"
+            s
+            placeholder="Bottle"
+            readonly
+            data-price="PKR 3,300"
+            class="input"
+          />
+        </div>
+        <div class="rupees">
+          <div class="prices">
+            <span class="one">Price</span><br />
+            <span id="prices">PKR 3,900</span>
+          </div>
+
+          <button type="button" onclick="order()">Order On Whatsapp</button>
+        </div>
+      </div>
+    </section>
+    <div class="papers"></div>
+
+    <section class="contact" id="contact">
+      <h3>
+        Have something specific in
+        Mind?
+      </h3>
+      <br />
+      <p>
+        Share a color, a mood, or an occasion — we'll 
+        craft a custom perfume tailored to your moment.
+      </p>
+      <br />
+      <button type="button" onclick="orders()">Message On Whatsapp</button>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-upper">
+        <div class="logo">
+          <img src="../assets/imgs/logo.png" alt="logo" />
+          <p>
+            Immerse yourself in the captivating world of Lumora, where every
+            scent tells a unique story of contrast and elegance. From the
+            velvety, mysterious allure of Midnight Velvet.
+          </p>
+        </div>
+
+        <div class="footerinfo">
+          <h4>Order</h4>
+          <p>
+            Message us directly on WhatsApp to confirm colours, sizes and
+            delivery.
+          </p>
+          <button type="button" onclick="orders()">92 316 2842434</button>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Lumora. Every Perfume is made to order.</p>
+      </div>
+    </footer>
+    <script src="../assets/js/script.js"></script>
+  </body>
+</html>
