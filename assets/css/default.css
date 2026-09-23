@@ -75,12 +75,18 @@ body {
     padding-left: 5px !important;
     padding-top: 40px !important;
   }
+  header nav .logo{
+    gap: 5px ;
+   width: 90px;
+  position: relative;
+  right: 10%;
+  }
   .logo img {
-    width: 35px;
+    width: 25px;
     margin-bottom: 30px;
   }
   .logo h1 {
-    font-size: 20px;
+    font-size: 15px !important;
     margin-bottom: 30px;
   }
   .container {
@@ -298,11 +304,11 @@ height: 90% !important;
   .services .imgs img {
     position: relative;
     right: 150px;
-    height: 80% !important;
+    height: 90% !important;
   }
   .services .imgs .imgg {
     position: relative;
-    bottom: 110px;
+    bottom: 60px;
 
   }
   .services .inputs{display: flex;flex-direction: row; flex-wrap: wrap;}
@@ -387,13 +393,16 @@ height: 90% !important;
     width: 100%;
   }
 
+
+
+
   .footer .footer-upper .logo {
     width: 100%;
     display: flex;
     flex-direction: row;
   }
   nav .logo h1 {
-    font-size: 25px;
+    font-size: 15px;
     font-weight: bold;
   }
 
@@ -435,7 +444,7 @@ margin-bottom: 0px;
   }
   .services .info {
     position: relative;
-    bottom: 180px !important;
+    bottom: 90px !important;
    
   }
  
@@ -806,7 +815,7 @@ margin-bottom: 0px;
     font-size: 25px;
     position: relative;
     bottom: 10px;
-    right: 71% !important;
+    right: 85% !important;
     top: 35px;
   }
 .scents .rupees .prices .one {
@@ -817,7 +826,7 @@ margin-bottom: 0px;
   }
 .services .rupees .prices .one {
     position: relative;
-    left: 15%;
+    left: 1%;
     font-size: 20px !important;
     margin-top: 20px;
   }
@@ -875,7 +884,7 @@ left: 25%;
     bottom: 150px;
   }
   .services {
-    height: 1250px !important;
+    height: 1350px !important;
   }
   .services .rupees {
     position: relative;
@@ -971,5 +980,18 @@ height: 50%;
   .footer .footer-upper .footerinfo p{
     font-size: 17px;
   }
+  header nav .logo{
+    position: relative;
+    left: 2%;
+  }
+  nav .logo h1{
+    font-size: 20px !important;
+  }
 }
 
+@media (min-width:768px) and (max-width:1024px) {
+  header nav .logo{
+    position: relative;
+    left: 3%;
+  }
+}
